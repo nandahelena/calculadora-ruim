@@ -1,20 +1,18 @@
-# WeatherWizard
+# Calculadora
 
-WeatherWizard é um app que mostra o clima.
+É uma calculadora que faz contas.
 
 ## Instalação
-Baixe o projeto e abra.
+Baixe os arquivos.
 
 ## Uso
-Rode o app e veja o tempo.
+Abre o index.html.
 
 ## Tecnologias
-React, Tailwind
+HTML, CSS, JS
 
-## Funcionalidades
-- Ver o clima
-- Dicas de roupa
-- Gráficos do tempo
-
-## Contato
-meuemail@gmail.com
+## Funções
+- soma
+- subtração
+- multiplicação
+- divisão
