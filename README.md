@@ -1,18 +1,32 @@
-# Calculadora
+# React
 
-É uma calculadora que faz contas.
+React is a JavaScript library for building user interfaces.
 
-## Instalação
-Baixe os arquivos.
+## Installation
+```
+npm install react
+```
 
-## Uso
-Abre o index.html.
+## Example
+```
+import { createRoot } from 'react-dom/client';
 
-## Tecnologias
-HTML, CSS, JS
+function HelloMessage({ name }) {
+  return <div>Hello {name}</div>;
+}
 
-## Funções
-- soma
-- subtração
-- multiplicação
-- divisão
+const root = createRoot(document.getElementById('container'));
+root.render(<HelloMessage name="Taylor" />); 
+```
+
+## Docs
+
+See the website.
+
+## Contributing
+
+Open PRs are welcome.
+
+## License
+
+MIT
