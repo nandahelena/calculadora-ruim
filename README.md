@@ -1,32 +1,38 @@
-# React
+# Calculadora
 
-React is a JavaScript library for building user interfaces.
+Uma calculadora para usar terminal que executa operações matemáticas básicas.
 
-## Installation
+## Instalação
+
+Instale com pip:
 ```
-npm install react
-```
-
-## Example
-```
-import { createRoot } from 'react-dom/client';
-
-function HelloMessage({ name }) {
-  return <div>Hello {name}</div>;
-}
-
-const root = createRoot(document.getElementById('container'));
-root.render(<HelloMessage name="Taylor" />); 
+pip install calculadora
 ```
 
-## Docs
+Ou clone:
+```
+git clone https://github.com/seuusuario/calculadora.git
+cd calculadora
+pip install -e .
+```
 
-See the website.
+## Funcionalidades
+- Faz contas como +, -, *, /
+- Tem funções de matemática: sin, cos, tan, log, sqrt
+- Avalia expressões
+- Faz contas com números com vírgula
+- Dá pra por mais coisas
+- Tem cores
 
-## Contributing
+## Exemplo de uso
+Aqui tem um código:
+```
+from calculadora import Calc
+calc = Calc()
+print(calc.avaliar("2 + 2 * 3"))
+print(calc.sqrt(16))
+print(calc.seno(90))
+```
 
-Open PRs are welcome.
-
-## License
-
-MIT
+## Licença
+MIT.
