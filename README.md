@@ -17,7 +17,9 @@ pip install -e .
 ```
 
 ## Funcionalidades
-- Faz as 4 operações básicas, tem funções de matemática, avalia expressões
+- Faz as 4 operações básicas
+- Tem funções de matemática
+- Avalia expressões
 
 ## Licença
 MIT.
